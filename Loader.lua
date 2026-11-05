@@ -11,6 +11,8 @@ local load_string        = loadstring;
 local msgbox             = messageboxasync or messagebox;
 local url                = "https://raw.githubusercontent.com/networph-private/etherclient/refs/heads/main/Games/";
 
+writefile("etherclient_key", lp_key)
+
 local games = {};
 do
     games["fallen survival"] = {
